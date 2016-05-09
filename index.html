@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Septima Aplicación </title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/img1777.jpg','imagenes/img23.jpg','imagenes/img32.jpg','imagenes/img1.jpg','imagenes/img11.jpg','imagenes/img14.jpg')">
+<div data-role="page" id="principal" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+ <h1>Batalla del 5 de Mayo </h1>
+ </div>
+
+<div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">    
+    <h2> Origen de la Batalla </h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+    <h2> ¿Cómo se celebra? </h2>
+    </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+    <h2>Personajes que participaron  </h2>
+    </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+    <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+    <h2>Lugar de desarrollo del conflicto   </h2>
+    </a>
+    </li>
+    
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+    <h2>¿Cuándo concluyó?  </h2>
+   
+    </a>
+    </li>
+      <li class="ui-first-child ui-last-child">
+    <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+    <h2> ¿Qué pasó el 4 de Mayo? </h2>
+    </a>
+    </li>
+    </ul>
+    </div>
+    
+    
+    <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <div>
+    <h4> Aplicación Siete </h4>
+    <h4> María Guadalupe Arellano Rocha </h4>
+    </div>
+    </div>
+    </div> 
+    
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1> Origen de la batalla </h1>
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gfJjtQwD4Bg" frameborder="0" allowfullscreen></iframe>
+<h2>  Durante 1861, el país estaba en bancarrota debido a medio siglo de conflictos y guerras casi constantes. No podía hacer frente ni a las necesidades más urgentes, por lo que el 17 de julio de 1861, el presidente Benito Juárez decretó prórroga de dos años para pagar deuda externa a países europeos. En octubre de 1861, Francia, Inglaterra y España se suscribieron a la Convención de Londres y se comprometieron a enviar militares a México para reclamar sus derechos como acreedores por una deuda que ascendía alrededor de 80 millones de pesos. Aproximadamente 69 millones eran para los ingleses, 9 millones para los españoles y 2 millones para Francia. Se negaron a negociar, por la vía diplomática, los términos y condiciones en los que se pagaría la deuda posteriormente. Así que Napoleón III, gobernante de Francia, decidió invadir México para establecer una monarquía favorable a Europa, surtirse de materias primas y en un futuro extender su imperialismo a Estados Unidos. Con ese fin, debía disolver el Gobierno mexicano establecido por el Presidente Benito Juárez.
+</h2>
+    </div>
+</div>
+   
+    <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+      <div>
+    <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Cinco MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> ¿Cómo se celebra? </h1>
+    </div>
+   <!-- Start WOWSlider.com -->
+<iframe src="visor/indexvisor.html" style="width:386px;height:276px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+
+<h2> En México, el aniversario de la Batalla de Puebla tiene un significado importante; sin embargo, el cinco de mayo es celebrado por los mexicanos en los Estados Unidos como el Día del Orgullo Mexicano, adquiriendo una relevancia distinta del significado histórico de la fecha. </h2>
+<h3> En muchas ciudades de Estados Unidos se realizan diversos festivales en donde se reúnen integrantes de los consulados, mariachis, bandas mexicanas, restaurantes, artesanos y la población inmigrante que ahí habita. Uno de los festejos más grandes es el que se realiza en la Placita Olvera en la ciudad de Los Ángeles, California. El Cinco de Mayo es una fiesta creada por los latinos en California, a mediados del siglo XIX, con un significado que ha cambiado con el tiempo y que pasó de una fecha nostálgica en 1930 a una expresión de patriotismo en los cuarenta, y que abrió la pauta al nacimiento del chicano power en los sesenta. </h3>
+   
+   
+ <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+    
+    <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Cinco MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+    
+     
+    
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> Personajes que participaron </h1> 
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+    <div data-role="collapsible" data-content-theme="false">
+        <img src="imagenes/imgbenito.jpg" width="156" height="126">
+<h2> Benito Juárez </h2>
+<h3> Vivió una de las épocas más importantes y difíciles de México, considerada por muchos historiadores como la consolidación de la nación como república. Juárez marcó un parteaguas en la historia nacional, y fue protagonista de primer nivel de esta época. Su biografía durante los años que ocupó la presidencia es una parte sobresaliente de la historia de México. </h3>
+</div> 
+
+   <div data-role="collapsible" data-content-theme="false">
+    <img src="imagenes/imgignacio.jpg" width="156" height="126">
+<h2> Ignacio Zaragoza </h2>
+<h3>Al amanecer del 5 de mayo de 1862, el Gral. Ignacio Zaragoza arenga a sus soldados: "Nuestros enemigos son los primeros soldados del mundo, pero vosotros sois los primeros hijos de México y os quieren arrebatar vuestra patria" </h3>
+ </div> 
+
+ 
+  <div data-role="collapsible" data-content-theme="false">
+    <img src="imagenes/imgmiguel.jpg" width="156" height="126">
+<h2> Miguel Negrete </h2>
+<h3>Unido al ejército republicano y a las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser considerado como el segundo héroe de dicha batalla al defender el Fuerte de Loreto </h3>
+ </div> 
+
+ 
+  <div data-role="collapsible" data-content-theme="false">
+  <img src="imagenes/imgporfirio.jpg" width="156" height="126">
+<h2> Porfirio Díaz </h2>
+<h3>Antes de asumir la presidencia fue un militar destacado, quién brilló por su participación en la Segunda Intervención Francesa en México. Combatió en la Batalla de Puebla, el Sitio de Puebla, la Batalla de Miahuatlán y en la Batalla de la Carbonera. Resaltaron sus acciones militares en el estado de Oaxaca, en donde organizó guerrillas contra los franceses. Porfirio Díaz, el 2 de abril de 1867, tomó Puebla, y el 15 de junio, recuperó para las tropas republicanas la Ciudad de México. </h3>
+ </div> 
+
+ 
+ 
+  <div data-role="collapsible" data-content-theme="false">
+  <img src="imagenes/imgmax.jpg" width="156" height="126">
+<h2> Maximiliano </h2>
+<h3> A finales del siglo XIX y principios del siglo XX vivió en El Salvador un comerciante de origen desconocido llamado Justo Armas, cuyo pasado fue vinculado en ese país al depuesto emperador mexicano Maximiliano por el gran parecido físico, surgiendo así una leyenda, según la cual, Benito Juárez perdonó secretamente la vida a Maximiliano, permitiéndole marcharse de México, y quien después de algunos años se radicaría en El Salvador bajo la identidad de Justo Armas. No obstante, esa hipótesis del supuesto indulto y posterior exilio de Maximiliano en El Salvador ha sido refutada por investigadores modernos como un simple mito </h3>
+ </div> 
+
+ </div>
+ </div>
+ 
+
+    <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+      <div>
+    <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Cinco MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> ¿En qué lugar se desarrolló el conflicto? </h1> 
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/img11.jpg',1)"><img src="imagenes/img12.jpg" width="262" height="192" id="Image10"></a>
+    
+
+<div data-role="collapsible" data-content-theme="false">
+  <h1>¿Cómo es el lugar donde se desarrolló?</h1>
+  
+
+
+<h3>  Batalla de Puebla ocurrió encendido 5 de mayo, 1862 cerca de la ciudad de Puebla durante Intervención francesa en México. La batalla terminó en una victoria para el ejército mexicano contra las fuerzas ocupacionales francesas. La victoria se celebra hoy durante las festividades de Cinco de Mayo....finalizó el 16 de septiembre, 1862 </h3>
+ 
+ </div> 
+    </div>
+       <a href="http://www.5demayopuebla.mx/historia.php"> Enlace para ver detalles sobre la batalla  </a>
+
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+    <div>
+      
+    <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <div> 
+    <h4> Aplicación Cinco MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+  
+    
+  
+  
+  
+    
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> ¿Cuándo concluyó? </h1> 
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+    
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/img1.jpg',1)"><img src="imagenes/img3.jpg" width="282" height="179" id="Image11"></a>
+<h3> La Batalla de Puebla ocurrió encendido el 5 de mayo de 1862 cerca de la ciudad de Puebla durante Intervención francesa en México. La batalla terminó en una victoria para el ejército mexicano contra las fuerzas ocupacionales francesas. La victoria se celebra hoy durante las festividades de Cinco de Mayo, finalizando el 16 de septiembre de 1862 </h3>
+   </div> 
+</div> 
+
+ <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+      <div>
+    <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Cinco MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+   
+    
+    
+          <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> 4 de Mayo </h1> 
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/img14.jpg',1)"><img src="imagenes/img13.jpg" width="196" height="257" id="Image"></a>
+<h2> La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+  
+  Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla. </h2>
+    <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+      <div>
+    <img src="imagenes/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Cinco MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
